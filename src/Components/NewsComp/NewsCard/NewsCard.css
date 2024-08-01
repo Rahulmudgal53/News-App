@@ -1,0 +1,36 @@
+/* NewsCard.css */
+.news-card {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.news-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.news-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.news-card h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.news-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}

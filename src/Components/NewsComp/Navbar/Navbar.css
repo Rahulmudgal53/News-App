@@ -1,0 +1,72 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
+nav{
+    display: flex;
+    padding-inline: 5%;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+
+}
+nav div a{
+    color: #cc6b6b;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    justify-content: right;
+    align-items: center;
+    /* padding-inline: 10%;
+    padding-block: 20px; */
+    
+    
+}
+li a{
+    text-decoration: none;
+    color: #cc6b6b;
+}
+a:hover{
+    color: cadetblue;
+}
+
+
+
+
+form {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.pseudo-search {
+  display: inline;
+  border: 2px solid #cc6b6b;
+  border-radius: 100px;
+  padding: 10px 15px;
+  transition: background-color 0.5 ease-in-out;
+
+  input {
+    border: 0;
+    background-color: transparent;
+    width: 200px;
+    color: wheat;
+
+    &:focus {
+      
+      outline: none;
+    }
+  }
+  
+  button {
+    border: orange;
+    background: transparent;
+    color: #cc6b6b;
+    cursor: pointer;
+  }
+  
+  select {
+    border: none;
+  }
+
+}
