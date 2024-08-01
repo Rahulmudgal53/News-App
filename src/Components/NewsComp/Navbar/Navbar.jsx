@@ -15,7 +15,7 @@ function Navbar(props) {
             <div><Link to="/">APP_LOGO</Link></div>
             <form> 
                 <div className="pseudo-search">
-                  <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search..." autofocus required/>
+                  <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search..." autoFocus required/>
                   <i className="fa fa-globe places"></i>
                   <button className="fa fa-search" onClick={handleSearch} type="submit"></button>
                 </div>
