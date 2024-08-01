@@ -14,7 +14,7 @@ function HomeNewsComp({ categary }) {
 
   }
   categary=categary2
-  const URL = `https://gnews.io/api/v4/search?q=${categary}&apikey=c595da9d18525df57c9a65aff9144eba`;
+  const URL = `https://gnews.io/api/v4/search?q=${categary}&apikey=4444e9829bead0066f043fa6a3ef299d`;
 
   const [news, setNews] = useState([]);
   console.log(URL);
